@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-white">
+    <div class="h-16 shadow-lg m-0 font-bold mx-auto bg-black flex flex-wrap">
+      <div>
+        <img
+          class="h-12 mt-1 ml-4 border-2 bg-gradient-to-r from-blue-50 to-white p-3 bg-slate-50"
+          src="/img/amazon-logo.png"
+          alt=""
+        />
+      </div>
+      <form class="ml-64 mt-1">
+        <label
+          for="default-search"
+          class="mb-2 text-sm flex font-medium text-gray-900 sr-only dark:text-white"
+          >Search</label
+        >
+        <div class="relative">
+          <div
+            class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+          >
+            <svg
+              class="w-4 h-4 text-gray-500 dark:text-gray-400"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 20 20"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+              />
+            </svg>
+          </div>
+          <input
+            type="search"
+            id="default-search"
+            class="block w-full p-4 pr-96 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="Search Mockups, Logos..."
+            required
+          />
+          <button
+            type="submit"
+            class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          >
+            Search
+          </button>
+        </div>
+      </form>
+      <button
+        type="button"
+        data-te-ripple-init
+        data-te-ripple-color="light"
+        class="inline-block rounded ml-48 px-6 pb-2 pt-2.5 text-xs font-medium leading-normal text-white"
+      >
+        Returns <br /><b>& Orders</b>
+      </button>
+      <div>
+        <img
+          class="h-12 mt-2 ml-16 border-2 opacity-80 bg-zinc-800"
+          src="/img/icons/cart-icon.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="ml-56 mt-8">
+      <p class="text-2xl font-bold">Your Orders</p>
+    </div>
+    <!-- Crd part -->
+    <div class="flex justify-center">
+      <div
+        class="w-2/3 block bg-white shadow border border-gray-300 rounded-t-xl"
+      >
+        <div class="flex justify-between p-2 border rounded-t-xl bg-gray-200">
+          <div class="flex">
+            <span class="flex flex-col mr-10">
+              <span>Order Placed:</span>
+              <span>August 12</span>
+            </span>
+            <span class="flex flex-col">
+              <span>Total</span>
+              <span>$35.06</span>
+            </span>
+          </div>
+          <div class="flex flex-col">
+            <span>Order ID:</span>
+            <span>27cba69d-4c3d-4098-b42d-ac7fa62b7664</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="grid grid-cols-6 gap-4">
+            <div>
+              <img
+                src="/img/products/athletic-cotton-socks-6-pairs.jpg"
+                alt="Cotton shoes"
+              />
+            </div>
+            <div class="col-span-3">
+              <div class="flex flex-col">
+                <span>Black and Gray Athletic Cotton Socks - 6 Pairs:</span>
+                <span>Arriving on: August</span>
+                <span>15 Quantity: 1</span>
+              </div>
+              <button class="border-4 bg-yellow-300 rounded-lg w-auto">
+                Buy it again
+              </button>
+              <!-- <a href="#" class="border-8 bg-yellow-300 rounded-lg w-auto"
+                >Buy it again</a
+              > -->
+            </div>
+            <div class="col-span-2">
+              <span class="border-4 rounded shadow-xl font-medium"
+                >Track Package</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second card -->
+    </div>
+
+    <div class="flex justify-center mt-4">
+      <div
+        class="w-2/3 block bg-white shadow border border-gray-300 rounded-t-xl"
+      >
+        <div class="flex justify-between p-2 border rounded-t-xl bg-gray-200">
+          <div class="flex">
+            <span class="flex flex-col mr-10">
+              <span>Order Placed:</span>
+              <span>August 12</span>
+            </span>
+            <span class="flex flex-col">
+              <span>Total</span>
+              <span>$35.06</span>
+            </span>
+          </div>
+          <div class="flex flex-col">
+            <span>Order ID:</span>
+            <span>27cba69d-4c3d-4098-b42d-ac7fa62b7664</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="grid grid-cols-6 gap-4">
+            <div>
+              <img
+                src="/img/products/athletic-cotton-socks-6-pairs.jpg"
+                alt="Cotton shoes"
+              />
+            </div>
+            <div class="col-span-3">
+              <div class="flex flex-col">
+                <span>Black and Gray Athletic Cotton Socks - 6 Pairs:</span>
+                <span>Arriving on: August</span>
+                <span>15 Quantity: 1</span>
+              </div>
+              <button class="border-4 bg-yellow-300 rounded-lg w-auto">
+                Buy it again
+              </button>
+              <!-- <a href="#" class="border-8 bg-yellow-300 rounded-lg w-auto"
+                >Buy it again</a
+              > -->
+            </div>
+            <div class="col-span-2">
+              <span class="border-4 rounded shadow-xl font-medium"
+                >Track Package</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
